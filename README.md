@@ -1,1 +1,1 @@
-# wscc
+# Windows Scripting Compiler Collection
