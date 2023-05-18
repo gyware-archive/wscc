@@ -44,3 +44,5 @@ Options:
 filename : The VBScript file to process
 Example  : vbjs C:\Path\To\Script.vbs
 ```
+
+*Easy to use, easy to understand.*
