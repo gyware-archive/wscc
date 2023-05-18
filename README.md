@@ -42,5 +42,5 @@ Usage: vbjs.wsf filename
 Options:
 
 filename : The VBScript file to process
-Example : vbjs C:\Path\To\Script.vbs
+Example  : vbjs C:\Path\To\Script.vbs
 ```
