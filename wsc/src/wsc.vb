@@ -62,7 +62,7 @@ ErrorHandler:
             out = Path.GetFullPath(out)
         End If
 
-		If Not GetArgumentValue(args, "autocompile").ToLower() = "false" Then
+		If Not args.Contains("/nocompile", StringComparer.CurrentCultureIgnoreCase) AndAlso Not args.Contains("//nocompile", StringComparer.CurrentCultureIgnoreCase) Then
 		Dim jscInfo = New ProcessStartInfo()
 		jscInfo.FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Windows), "Microsoft.NET", "Framework64", "v4.0.30319", "jsc.exe")
 		jscInfo.Arguments = "/nologo /target:winexe /out:""" & out & """ " & jsPath
