@@ -27,3 +27,20 @@ Example   : wsc C:\Path\To\Script.vbs /engine:VBScript /target:WScript
 
 ## VBScript to JavaScript Converter (vbjs)
 A program to convert VBScript to JavaScript.
+
+### Features:
+* Converts VB syntax to JavaScript syntax
+* Converts most built-in VBScript functions to the JavaScript equivalent
+
+### Command Line Options:
+```
+GyWare WSCC VBScript to JavaScript Converter [https://github.com/gyware/wscc]
+Copyright (C) GyWare. All rights reserved.
+			
+Usage: vbjs.wsf filename
+
+Options:
+
+filename : The VBScript file to process
+Example : vbjs C:\Path\To\Script.vbs
+```
