@@ -26,7 +26,7 @@ Example   : wsc C:\Path\To\Script.vbs /engine:VBScript /target:WScript
 ```
 
 ## VBScript to JavaScript Converter (vbjs)
-A program to convert VBScript to JavaScript.
+A program to convert VBScript into JavaScript.
 
 ### Features:
 * Converts VB syntax to JavaScript syntax
