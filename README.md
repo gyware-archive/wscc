@@ -13,7 +13,7 @@ A program to convert VBScript and JScript (JavaScript) files to an executable fi
 GyWare WSCC Windows Script Compiler [https://github.com/gyware/wscc]
 Copyright (C) GyWare. All rights reserved.
 			
-Usage: wsc.wsf filename [/nocompile[+|-]] [/engine:value] [/nologo[+|-]] [/target:value]
+Usage: wsc filename [/nocompile[+|-]] [/engine:value] [/nologo[+|-]] [/target:value]
 
 Options:
 
@@ -37,7 +37,7 @@ A program to convert VBScript to JavaScript.
 GyWare WSCC VBScript to JavaScript Converter [https://github.com/gyware/wscc]
 Copyright (C) GyWare. All rights reserved.
 			
-Usage: vbjs.wsf filename
+Usage: vbjs filename
 
 Options:
 
